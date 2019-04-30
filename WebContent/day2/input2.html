@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- 입력된 데이터를 서버로 전송 태그 -->
+	<!-- 
+		버튼은 2가지
+		a. <input type="button" value="버튼의 이름">
+		  a_1. <input type ="submit" value="버튼의 이름">
+		  a_2. <input type="reset" value="버튼의 이름">
+		b. <button>버튼의 이름</button>
+		
+		1. 버튼이 form 태그 내부에서 생성
+		2. 버튼이 form 태그 외부에서 생성
+	
+	 -->
+	
+	<form action = "./input.html">
+		<!-- 입력태그들 -->
+		<p> ID : <input type="text" name="id" value="id"> </p>
+		<p> PW : <input type="password" name="pw" placeholder="pw를 입력하세요"> </p>
+		
+		<input type="button" value ="Botton1">  <!-- 반응 x -->
+		<input type="submit" value="Botton2">	<!-- action 주소로 이동 -->
+		<input type="reset" value ="Botton3">	<!-- 입력값을 초기화 -->
+		<button>BTN4</button>					<!-- action 주소로 이동 -->
+	
+	</form>
+	<p></p>
+	<input type="button" value ="BTN1">
+	<input type="submit" value="BTN2">
+	<input type="reset" value ="BTN3">
+	<button>BTN4</button>
+
+</body>
+</html>
